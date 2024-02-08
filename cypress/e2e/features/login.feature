@@ -14,6 +14,7 @@ Feature: Login features
         When I enter valid username and password
         And I click on login button
 
+
     @login @regression
     Scenario Outline: Verify user is not able to login to website with invalid credentials
         Given I am in login page
