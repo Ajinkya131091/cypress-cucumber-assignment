@@ -6,7 +6,7 @@
 
 ## Install the project
 
-1. Clone the repository : git clone ":repo"
+1. Clone the repository : git clone https://github.com/Ajinkya131091/cypress-cucumber-assignment.git
 2. Install project dependencies with: npm install
 
 ## Commands to execute scripts
