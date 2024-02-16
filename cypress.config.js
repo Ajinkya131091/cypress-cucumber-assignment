@@ -15,13 +15,11 @@ async function setupNodeEvents(on, config) {
     })
   );
   allureWriter(on, config);
-
-  // Make sure to return the config object as it might have been modified by the plugin.
   return config;
 }
 
 module.exports = defineConfig({
-  retries : 1,
+  retries: 1,
   e2e: {
     setupNodeEvents,
     specPattern: "cypress/e2e/features/*.feature",

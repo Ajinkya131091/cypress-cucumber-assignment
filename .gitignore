@@ -2,3 +2,5 @@ node_modules/
 allure-report/
 allure-results/
 cypress/screenshots/
+package-lock.json
+cypress/videos/

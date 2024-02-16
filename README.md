@@ -1,6 +1,6 @@
 ## Cypress-Cucumber Project
 
-## Automating demo sceanrios
+## Automating sceanrios
 
 1. For website phptravels : https://www.phptravels.net/
 
@@ -13,8 +13,5 @@
 
 1. Execute scripts in Cypress Runner : npm run cypress:open or npm run cypress:runner
 2. Execute all scripts from terminal : npm run cypress:execution
-3. Execute scripts based on tags : npm run cypress:execution-tags
-4. Execute scripts for allure report : PENDING (Not Completed)
-   - npm run cypress:execution-allure
-   - npm run allure:report
-   - allure open
+3. Execute scripts based on tags : npm run cypress:execution-tags (Kept Default tag as @regression)
+4. Execute scripts for allure report : npm run allure-results (Please use Git Bash to execute this command)
